@@ -428,7 +428,7 @@ Percentage of the requests served within a certain time (ms)
  100%   1004 (longest request)
 ```
 
-### no QAT with SSL
+### no QAT with SSL (CPU was 100%)
 
 #### 10000 requests 
 
@@ -741,6 +741,11 @@ Percentage of the requests served within a certain time (ms)
  100%   5016 (longest request)
 ```
 
+### Haproxy test results summary:
+* no SSL	   - Time per request:       0.147 [ms] (mean, across all concurrent requests) 	 and CPU usage by Haproxy 100%
+* no QAT, with SSL -  Time per request:      3.807 [ms] (mean, across all concurrent requests) and CPU usage by Haproxy 100%
+* QAT with sync    - Time per request:       3.122 [ms] (mean, across all concurrent requests) and CPU usage by Haproxy 100%
+* QAT with asyn    - Time per request:       0.764 [ms] (mean, across all concurrent requests) and CPU usage by Haproxy ~ 62% 
 
 [ ] nginx testing; 
 
