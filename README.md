@@ -742,10 +742,10 @@ Percentage of the requests served within a certain time (ms)
 ```
 
 ### Haproxy test results summary:
-* no SSL	   - Time per request:       0.147 [ms] (mean, across all concurrent requests) 	 and CPU usage by Haproxy 100%
-* no QAT, with SSL -  Time per request:      3.807 [ms] (mean, across all concurrent requests) and CPU usage by Haproxy 100%
-* QAT with sync    - Time per request:       3.122 [ms] (mean, across all concurrent requests) and CPU usage by Haproxy 100%
-* QAT with asyn    - Time per request:       0.764 [ms] (mean, across all concurrent requests) and CPU usage by Haproxy ~ 62% 
+* no SSL - Time per request: 0.147 [ms] and CPU usage by Haproxy 100%
+* no QAT, with SSL -  Time per request: 3.807 [ms] and CPU usage by Haproxy 100%
+* QAT with syn - Time per request: 3.122 [ms] and CPU usage by Haproxy 100%
+* QAT with async - Time per request: 0.764 [ms] and CPU usage by Haproxy ~ 62% 
 
 [ ] nginx testing; 
 
