@@ -2,10 +2,10 @@
 
 Product brief at the moment of writing this README is hosted there https://www.intel.com/content/www/us/en/ethernet-products/gigabit-server-adapters/quickassist-adapter-8950-brief.html
 
-## My current setup 
+## My current setup is desktop PC with 32GB RAM, i7-6700K, Intel® QuickAssist Adapter 8950 and Intel SSD NVMe disk.
 
 ```
-lspci
+# lspci
 00:00.0 Host bridge: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers (rev 07)
 00:01.0 PCI bridge: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16) (rev 07)
 00:02.0 VGA compatible controller: Intel Corporation HD Graphics 530 (rev 06)
