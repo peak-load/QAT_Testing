@@ -551,7 +551,7 @@ Percentage of the requests served within a certain time (ms)
  100%     98 (longest request)
  ```
  
-#### 100000 requests 
+#### Same test, but 100000 requests 
 
 ```ab -c 20 -n 100000 -f TLS1.2 https://127.0.0.1:443/
 This is ApacheBench, Version 2.3 <$Revision: 1430300 $>
@@ -674,7 +674,7 @@ Percentage of the requests served within a certain time (ms)
  100%     20 (longest request)
 ```
 
-#### 100000 requests 
+#### Same test, but 100000 requests 
 
 ```
 $ ab -c 20 -n 100000 -f TLS1.2 https://127.0.0.1:443/
