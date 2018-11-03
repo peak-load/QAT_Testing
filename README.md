@@ -35,7 +35,8 @@ Product brief at the moment of writing this README is hosted there https://www.i
 0b:00.0 Non-Volatile memory controller: Intel Corporation PCIe Data Center SSD (rev 01)
 ```
 
-```# cat /proc/cpuinfo 
+```
+# cat /proc/cpuinfo 
 processor	: 0
 vendor_id	: GenuineIntel
 cpu family	: 6
@@ -336,6 +337,7 @@ There is 1 QAT acceleration device(s) in the system:
 [x] haproxy testing. I'm doing this tests with simplest setup and nginx webserver as backend server.
 
 #### haproxy config file
+
 ```
 # cat /etc/haproxy/haproxy.cfg 
 global
@@ -493,7 +495,8 @@ Percentage of the requests served within a certain time (ms)
 
 #### 10000 requests
 
-```$ ab -c 20 -n 10000 -f TLS1.2 https://127.0.0.1:443/
+```
+$ ab -c 20 -n 10000 -f TLS1.2 https://127.0.0.1:443/
 This is ApacheBench, Version 2.3 <$Revision: 1430300 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
@@ -553,7 +556,8 @@ Percentage of the requests served within a certain time (ms)
  
 #### Same test, but 100000 requests 
 
-```ab -c 20 -n 100000 -f TLS1.2 https://127.0.0.1:443/
+```
+ab -c 20 -n 100000 -f TLS1.2 https://127.0.0.1:443/
 This is ApacheBench, Version 2.3 <$Revision: 1430300 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
