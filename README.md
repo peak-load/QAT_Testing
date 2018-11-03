@@ -4,7 +4,7 @@ Product brief at the moment of writing this README is hosted there https://www.i
 
 ## Goals (I'm planning to make all testing on CentOS 7):
 
-[ ] openssl QAT engine testing (using openssl benchmarks)
+[ ] openssl QAT engine testing (using openssl benchmarks);
 
 [x] haproxy testing;
 
